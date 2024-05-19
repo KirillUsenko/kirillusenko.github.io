@@ -1,0 +1,14 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-black: #080A17;
+    --color-black-75: rgba(8, 10, 23, .75);
+    --color-grey: #B4B5B9;
+    --color-turquoise: #4BF7F9;
+    --color-turquoise-15: rgba(75, 247, 249, .15);
+
+    --font-benzin: 'Benzin', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+
+    --font-regular: 400;
+    --font-medium: 500;
+}

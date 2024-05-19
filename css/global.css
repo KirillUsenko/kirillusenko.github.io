@@ -1,0 +1,58 @@
+@import './fonts.css';
+@import './variables.css';
+
+html, body {
+    margin: 0;
+
+    color: var(--color-white);
+    background: var(--color-black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+.container {
+    margin: 0 auto;
+
+    width: 100%;
+    max-width: 1320px;
+}
+
+@media (max-width: 1499px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0 16px;
+        max-width: 580px;
+    }
+}
